@@ -27,6 +27,7 @@ public class Testcalcul {
 		apt.ajouter(c);
 		
 		assertTrue(apt.calcul()==4680);
+		assertTrue(apt.taille()==3);
 		
 	}
 

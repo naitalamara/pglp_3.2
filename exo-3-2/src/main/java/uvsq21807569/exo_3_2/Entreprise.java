@@ -23,6 +23,10 @@ public class Entreprise {
 		return sum ;
 	}
 	
-	
+	//le nombre d employe  dans une entreprise
+		public int taille() {
+			return list.size();
+		}
+
 
 }
