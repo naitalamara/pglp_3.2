@@ -10,7 +10,7 @@ public class Testcalcul {
 	public void test() {
 		Info_Employe cora=new Info_Employe("sam","al","paris");
 		Employe a=new Employe(cora,1);
-		assertTrue(a.calcul_salaire()==1520);
+		assertTrue(a.calcul_salaire()==1520); //test pour l'employer 1 
 		
 		Info_Employe corb=new Info_Employe("wall","bin","tokyo");
 		Vendeur b = new Vendeur(corb ,1,20);

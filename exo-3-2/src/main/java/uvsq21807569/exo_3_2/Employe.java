@@ -13,7 +13,7 @@ public class Employe {
 
 
 	public float calcul_salaire() {
-		return 1500+20*annee_anciennte ;
+		return (1500+20*annee_anciennte );
 	} 
 	
 
